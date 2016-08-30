@@ -1,0 +1,24 @@
+.parallax-viewport {
+    position: relative;     /* relative, absolute, fixed */
+
+}
+.parallax-layer {
+    position: absolute;
+    bottom: 0px;
+}
+
+@media (min-width:768px){
+    .parallax-layer{
+    width:920px; height:274px;
+    }
+        .parallax-viewport {
+      width: 800px;
+      height: 300px;
+        overflow: hidden;
+    }
+            .parallax-viewport1 {
+      width: 100%;
+      height: 100%;
+        overflow: hidden;
+    }
+}

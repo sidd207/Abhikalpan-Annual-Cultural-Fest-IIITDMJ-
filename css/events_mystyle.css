@@ -1,0 +1,301 @@
+/*
+    .grid-wrap::-webkit-scrollbar {
+    width: 0.5em;   
+    }
+
+    .grid-wrap::-webkit-scrollbar-track {
+
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    }
+
+    .grid-wrap::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    }
+*/
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 68px;
+    overflow: hidden;
+    z-index: 999;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.16), 0 3px 5px 0 rgba(0, 0, 0, 0.12);
+    background: rgba(0,0,0,.9);
+    z-index: 50;
+}
+
+.header img{
+    display: inline;
+    margin: 8px 100px auto;
+}
+
+.header ul{    
+    display: inline-block;
+    float: right;
+    height: 50px;
+    width: 60%;
+    
+}
+
+.header ul li{
+    padding: 10px;
+    display: inline-block;
+}
+
+.header ul li:hover{
+    border-bottom: 2px solid #428bca;
+    transition: 50ms;
+    cursor: pointer;
+}
+
+.header ul li a{
+    color: #fff;
+    text-shadow: rgba(255, 255, 255, 0.00784314) 0px -1px 1px;
+    font-size: 11px;
+    letter-spacing: 0.12rem;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.st-deco{
+    position: relative;
+    z-index: 100;
+}
+
+.club_name{
+    text-decoration:none;
+    font-size: 1.25em;
+}
+
+.club_icon{
+    margin: 3px auto -5px;
+    display: block;
+    height: 55px;
+}
+
+.event-name{
+    margin: 3px auto;
+    display: block;
+    line-height: 1.5;
+    vertical-align: bottom;
+    height: auto;
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: 800;
+    background: #fff;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.16), 0 3px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.register{
+    text-align: center;
+}
+
+.register_btn {
+    position: relative;
+    right: 41%;
+    margin: auto;
+    margin-top: 35px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 100;
+    letter-spacing: 2px;
+    background-color: #3E779A;
+    color: white;
+    border: 3px solid #3E779A;
+    cursor: pointer;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.16), 0 3px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.register_btn:hover{
+    color: #3E779A;
+    background: whitesmoke;
+    border: 3px solid whitesmoke;
+    transition: 300ms;
+}
+
+.event-head{
+    margin-top: -20px;
+    color: #3E779A;
+}
+
+.content > div.show{
+    background-color: rgba(200,200,200,0.2);
+}
+
+.event-container{
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    margin-left: 10%;
+    padding-left: 5%;
+    width: 80%;
+    font-size: 1em;
+    font-family: sans-serif;
+    word-spacing: 3px;
+    letter-spacing: 0.25px;
+    line-height: 1.4;
+    font-weight: 100;
+    background-color: rgba(200,200,200,0.4);
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.16), 0 3px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.event-container h4{
+    font-size: 1.45em;
+}
+
+h2.left{
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    width: 30%;
+    border-bottom: 1px solid lightgrey;
+}
+
+p.left{
+    position: absolute;
+    top: 14%;
+    left: 10%;
+    width: 30%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+div.left{
+}
+
+h2.right{
+    position: absolute;
+    top: 1%;
+    left: 60%;
+    width: 30%;
+    border-bottom: 1px solid lightgrey;
+}
+
+p.right{
+    position: absolute;
+    top: 14%;
+    left: 60%;
+    width: 30%;
+    text-align: center;
+}
+
+.mech{
+    margin-top: -180px;
+    height: 100%;
+}
+
+.mech figure img{
+    height: 120px;
+    width: 120px;
+}
+
+.mech figure span{
+    font-size: 1.3em;
+}
+
+.mech figure:nth-child(1){
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}
+
+.mech figure:nth-child(2){
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.mech figure:nth-child(3){
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+
+.mech figure:nth-child(4){
+    position: absolute;
+    top: 275px;
+    left: 10px;
+}
+
+.mech figure:nth-child(5){
+    position: absolute;
+    top: 275px;
+    left: 200px;
+}
+
+.mech figure:nth-child(6){
+    position: absolute;
+    top: 275px;
+    left: 400px;
+}
+
+.mech figure:nth-child(7){
+    position: absolute;
+    top: 100px;
+    left: 620px;
+}
+
+.mech figure:nth-child(8){
+    position: absolute;
+    top: 100px;
+    left: 830px;
+}
+
+.mech figure:nth-child(9){
+    position: absolute;
+    top: 100px;
+    left: 1050px;
+}
+
+.mech figure:nth-child(10){
+    position: absolute;
+    top: 275px;
+    left: 820px;
+}
+
+.mech figure:nth-child(11){
+    position: absolute;
+    top: 275px;
+    left: 1050px;
+}
+
+.cs{
+    margin-top: 60px;
+}
+
+.cs figure img{
+    height: 130px;
+    width: 130px;
+}
+
+.cs figure:nth-child(4),.cs figure:nth-child(5),.cs figure:nth-child(6){
+    position: relative;
+    top: 50px;
+    right: -30px;
+}
+
+.cs figure:nth-child(7){
+    position: absolute;
+    top: 175px;
+    left: 265px;
+}
+
+@media screen and (max-width: 58em) {
+	span.club_name {
+		display: none;
+	}
+    
+    .st-panel h2{
+        margin-left: 0;
+        text-align: center;
+    }
+}

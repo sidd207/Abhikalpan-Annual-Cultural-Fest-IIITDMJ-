@@ -1,0 +1,174 @@
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 68px;
+    overflow: hidden;
+    z-index: 999;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.16), 0 3px 5px 0 rgba(0, 0, 0, 0.12);
+    background: rgba(0,0,0,.9);
+    z-index: 100;
+}
+
+.header img{
+    display: inline;
+    margin: 8px 100px auto;
+}
+
+.header ul{    
+    display: inline-block;
+    margin-top: 8px;
+    float: right;
+    height: 50px;
+    width: 60%;
+    
+}
+
+.header ul li{
+    padding: 10px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.header ul li:hover{
+    border-bottom: 2px solid #428bca;
+    transition: 50ms;
+    cursor: pointer;
+	text-decoration:none;
+}
+
+.header ul li a{
+    color: #fff;
+    text-shadow: rgba(255, 255, 255, 0.00784314) 0px -1px 1px;
+    font-size: 11px;
+    letter-spacing: 0.12rem;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-decoration:none;
+}
+
+.main h1{
+    color: #3E779A;
+    text-shadow: 1px 1px 1px #3E779A;
+    position: absolute;
+    top: 55px;
+    left: 35%;
+    font-size: 45px;
+    font-weight: 900;
+    width: 30%;
+    text-align: center;
+    line-height: 50px;
+    padding: 0px;
+    border-bottom: 1px solid #D3D3D3;
+    font-family: "Josefin Slab","Myriad Pro",Arial,sans-serif;
+}
+
+.grid__item:nth-child(1),.grid__item:nth-child(2),.grid__item:nth-child(3),.grid__item:nth-child(4){
+    margin-top: 190px;
+}
+
+.grid__item:nth-child(5),.grid__item:nth-child(6),.grid__item:nth-child(7),.grid__item:nth-child(8){
+    margin-top: -60px;
+}
+
+.workshop-logo{
+    margin: auto;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.16), 0px 3px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+.workshop-name{
+    margin: auto;
+    padding: 5px;
+    width: 95%;
+    font-size: 1.4em;
+    color: darkslategrey;
+    font-weight: 700;
+    font-family: "Josefin Slab","Myriad Pro",Arial,sans-serif;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.16), 0px 3px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+.content__item h1{
+    color: #3E779A;
+    text-shadow: 1px 1px 1px #3E779A;
+    top: 10px;
+    left: 15%;
+    font-size: 2.5em;
+    font-weight: 600;
+    width: 70%;
+    text-align: center;
+    line-height: 50px;
+    padding: 0px;
+    border-bottom: 1px solid #D3D3D3;
+    font-family: "Josefin Slab","Myriad Pro",Arial,sans-serif;
+}
+
+.content__item h4{
+    font-size:1.3em;
+    margin-bottom:-10px
+}
+
+.register{
+    text-align: center;
+}
+
+.register_btn {
+    position: relative;
+    margin: auto;
+    float: left;
+    top: 0px;
+    left: 0px;
+    color: #fff;
+    margin-top: 25px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    background-color: #3E779A;
+    border: 3px solid #3E779A;
+    cursor: pointer;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.16), 0 3px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.register_btn:hover{
+    color: #3E779A;
+    background: whitesmoke;
+    border: 3px solid whitesmoke;
+    transition: 300ms;
+}
+
+.footer{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    background: rgba(0,0,0,0.9);
+    z-index: 100;
+}
+
+.footer ul{
+    margin-top: 0;
+    text-align: center;
+}
+
+.footer ul li{
+    display: inline-block;
+    margin-right: 10px
+}
+
+.footer ul li:hover{
+    cursor: pointer;
+}
+
+.footer ul li a{
+    text-transform: uppercase;
+    font-size: 11px;
+    color: white;
+    font-weight: 700;
+	text-decoration:none;
+}
